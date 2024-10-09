@@ -1,0 +1,11 @@
+:root {
+  /* colors */
+  --white-primary: #ffffff;
+  --grey-secundary: #c0c0c0;
+  --button-blue: #167bf7;
+  --background: #00030c;
+  /* image */
+  --backgound-image: url(../image/Background.png);
+  /* font */
+  --font-principal: "Inter", sans-serif;
+}
