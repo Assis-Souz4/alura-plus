@@ -85,10 +85,13 @@ body {
 }
 .dispositivos__titulo{
   text-align: center;
+  font-size: 3em;
+  line-height: 1;
 }
 .container__dispositivos{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin: 5em 0;
 }
 .container__dispositivos__item{
   text-align: center;
@@ -101,4 +104,28 @@ body {
   color: var(--white-primary);
   line-height: 1;
   text-align: center;
+}
+.footer{
+  display: grid;
+  text-align: center;
+  gap: 1.5em;
+  margin-bottom: 5em;
+  margin-top: 10em;
+}
+.footer__img{
+  display: inline-block;
+}
+.footer__list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.footer__list > a{
+  color: var(--white-primary);
+  line-height: 1;
+}
+.footer__text__small{
+  font-size: 0,875em;
+  color: var(--grey-secundary);
 }
