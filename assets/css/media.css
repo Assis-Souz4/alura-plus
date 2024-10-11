@@ -29,7 +29,6 @@
     padding: 0;
   }
   .terciario__descricao{
-    margin: 0 2em;
     display: inblock;
     text-align: center;
     margin-bottom: 2em;
@@ -45,9 +44,14 @@
     margin-bottom: 1em;
   }
   .footer__list{
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1em;
     margin-bottom: 1em;
-    text-align: center;
+  }
+  .footer__list > a + a{
+    margin-left: 5px;
+  
   }
   .footer__text__small{
     text-align: center;
