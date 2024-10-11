@@ -124,8 +124,14 @@ body {
 .footer__list > a{
   color: var(--white-primary);
   line-height: 1;
+  font-size: smaller;
 }
 .footer__text__small{
   font-size: 0,875em;
   color: var(--grey-secundary);
+  font-size: smaller;
+}
+.container__botao:hover, .terciario__botao:hover{
+  background-color: var( --detail-button);
+  color: var(--background);
 }

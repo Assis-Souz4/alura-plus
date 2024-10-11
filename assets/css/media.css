@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+    background-image: none;
+  }
+  .container__caixa {
+    margin: 2em;
+  }
+  .container__imagem {
+    width: 50vw;
+    display: inline-block;
+    text-align: center;
+  }
+  .secundario{
+    margin: 2em;
+    text-align: center;
+  }
+  .container__imagem{
+    display: inline-block;
+    text-align: center;
+    width: 50vw;
+  }
+}
