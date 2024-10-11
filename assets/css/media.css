@@ -63,6 +63,9 @@
 }
 
 @media screen and (max-width: 900px) {
+  .principal{
+    margin-top: 4em;
+  }
   .container__caixa{
     margin: 0 3em;
   }
@@ -87,7 +90,6 @@
   .container__dispositivos__texto{
     width: min-content;
     margin: 0 auto;
-    background-color: blue;
     min-height: 150px;
   }
 }
