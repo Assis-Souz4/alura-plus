@@ -26,6 +26,8 @@ body {
 }
 .container__imagem {
   margin: 1em 0 2em 0;
+  display: inline-block;
+  text-align: center;
 }
 .container__botao {
   background-color: var(--button-blue);
