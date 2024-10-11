@@ -63,6 +63,16 @@
 }
 
 @media screen and (max-width: 900px) {
+  .container__caixa{
+    margin: 0 3em;
+  }
+  .secundario {
+    margin: 0 3em;
+    padding: 100px 0;
+  }
+  .container__descricao{
+    padding-right: 0em;
+  }
   .container__dispositivos__texto{
     font-size: 1.500em;
   }
@@ -77,6 +87,7 @@
   .container__dispositivos__texto{
     width: min-content;
     margin: 0 auto;
-
+    background-color: blue;
+    min-height: 150px;
   }
 }
