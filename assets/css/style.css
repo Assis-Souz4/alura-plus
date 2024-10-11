@@ -98,7 +98,7 @@ body {
   display: grid;
   justify-content: center;
 }
-.container__dispositivos__item > p{
+.container__dispositivos__texto{
   font-size: 2em;
   font-weight: bold;
   color: var(--white-primary);
@@ -120,6 +120,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 15px;
+  flex-wrap: wrap;
 }
 .footer__list > a{
   color: var(--white-primary);
